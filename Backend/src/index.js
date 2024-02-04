@@ -10,10 +10,6 @@ import mongoose from "mongoose";
 dotenv.config();
 
 
-
-dotenv.config()
-
-
 const app = express();
 
 app.use(cors());
@@ -26,9 +22,9 @@ const PORT = process.env.PORT
 
 
 
-app.use("/api/v1/movies", moviesRouter.default)
+app.use("/movies", moviesRouter.default)
 
-app.use("/api/v1/favorites", favoritesRouter.default)
+app.use("/favorites", favoritesRouter.default)
 
 
 const runServer = app.listen(PORT, console.log("APP RUNNING @ port: " + PORT))
