@@ -1,0 +1,97 @@
+.DetailPages {
+	padding: 5%;
+	width: 100%;
+	h1 {
+		color: var(--highLight-Color);
+		font-family: poppinsBold;
+		font-size: 3vw;
+	}
+	h5 {
+		font-family: poppinsExtraLight;
+		font-size: 1.3vw;
+		color: white;
+	}
+
+	.buttonWrapper {
+		display: flex;
+		gap: 2%;
+		font-family: poppinsMedium;
+		button {
+			cursor: pointer;
+			&:nth-of-type(2) {
+				margin-top: 4%;
+				margin-bottom: 1%;
+				font-size: 1.5vw;
+				border-radius: 1.5vw;
+				font-family: poppinsMedium;
+				width: 17%;
+				color: var(--secondary-Color);
+				background-color: var(--Primary-Color);
+				transition: background-color 300ms ease-in-out;
+				border: 2px solid var(--secondary-Color);
+				&:hover {
+					color: var(--Primary-Color);
+					background-color: var(--secondary-Color);
+				}
+			}
+		}
+	}
+	.infoWrapper {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 1vw;
+		.posterSide {
+			width: 100%;
+			div {
+				&:nth-of-type(1) {
+					padding: 2.5%;
+					padding-left: 0%;
+					padding-top: 0;
+					img {
+						width: 100%;
+					}
+				}
+				&:nth-of-type(2) {
+					display: flex;
+					gap: 2%;
+					p {
+						font-family: poppinsMedium;
+						color: white;
+					}
+				}
+			}
+		}
+		.storySide {
+			div {
+				&:nth-of-type(1) {
+					display: flex;
+					gap: 2%;
+					p {
+						font-family: poppinsMedium;
+						color: white;
+						background-color: var(--secondary-Color);
+						padding: 1% 2%;
+						border-radius: 1rem;
+						min-width: fit-content;
+						width: 20%;
+						text-align: center;
+						font-size: 1.1vw;
+					}
+				}
+				&:nth-of-type(2) {
+					padding-top: 5%;
+					h2 {
+						color: var(--highLight-Color);
+						font-family: poppinsSemiBold;
+						font-size: 3vw;
+						margin-bottom: 4%;
+					}
+					p {
+						font-family: poppinsMedium;
+						color: white;
+					}
+				}
+			}
+		}
+	}
+}

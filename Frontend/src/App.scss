@@ -1,0 +1,60 @@
+/* ====================================================================
+                                RESET
+=====================================================================*/
+
+@font-face {
+	font-family: poppinsBold;
+	src: url(../public/Fonts/Poppins-Bold.ttf);
+}
+@font-face {
+	font-family: poppinsBlack;
+	src: url(../public/Fonts/Poppins-Black.ttf);
+}
+@font-face {
+	font-family: poppinsSemiBold;
+	src: url(../public/Fonts/Poppins-SemiBold.ttf);
+}
+@font-face {
+	font-family: poppinsExtra;
+	src: url(../public/Fonts/Poppins-ExtraBold.ttf);
+}
+@font-face {
+	font-family: poppinsMedium;
+	src: url(../public/Fonts/Poppins-Medium.ttf);
+}
+@font-face {
+	font-family: poppinsLight;
+	src: url(../public/Fonts/Poppins-Light.ttf);
+}
+@font-face {
+	font-family: poppinsExtraLight;
+	src: url(../public/Fonts/Poppins-ExtraLight.ttf);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+:root {
+	--Primary-Color: #264653;
+	--secondary-Color: #2a9d8f;
+	--highLight-Color: #a16171;
+	--placeHolder-Color: #2a9d8f80;
+	--Star-Color: #e9c46a;
+}
+
+body {
+	background-color: #264653;
+}

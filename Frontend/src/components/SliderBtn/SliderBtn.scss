@@ -1,0 +1,24 @@
+.SliderBtn {
+	padding-block: 3% 1.5;
+	display: flex;
+	gap: 5vw;
+	justify-content: center;
+	.previousPage {
+		transition: all 600ms ease-in-out;
+		transform: rotate(180deg);
+		&:hover {
+			transform: scale(1.1) rotate(180deg);
+		}
+	}
+	.nextPage {
+		transition: all 600ms ease-in-out;
+		&:hover {
+			transform: scale(1.1);
+		}
+	}
+	.previousPageDeactive {
+		transition: all 600ms ease-in-out;
+		transform: rotate(180deg);
+		opacity: 0.5;
+	}
+}

@@ -1,0 +1,82 @@
+header {
+	padding: 2.5% 6%;
+	width: 100%;
+	height: 50vw;
+	background: url(../public/img/moviemagic.png) center / cover no-repeat;
+	margin-bottom: 3%;
+
+	nav {
+		display: flex;
+		justify-content: space-between;
+		color: var(--secondary-Color);
+		align-items: center;
+		div {
+			display: flex;
+			align-items: baseline;
+			gap: 15%;
+			width: 16%;
+			h2 {
+				font-family: poppinsSemiBold;
+				font-size: 2.9vw;
+			}
+		}
+		form {
+			width: 50%;
+			margin: 0 auto;
+			display: flex;
+			justify-content: center;
+			input {
+				background-color: transparent;
+				border: 2px solid var(--secondary-Color);
+				font-size: 1.6vw;
+				border-radius: 1.5vw;
+				padding: 1% 3%;
+				color: var(--secondary-Color);
+				&:focus {
+					outline: none;
+				}
+				&::placeholder {
+					color: var(--placeHolder-Color);
+				}
+			}
+			button {
+				margin-left: 2rem;
+				font-size: 1.5vw;
+				border-radius: 1.5vw;
+				width: 25%;
+				padding-block: 0.5vw;
+				color: white;
+				border: none;
+				background-color: var(--primary-color);
+				transition: background-color 300ms ease-in-out;
+				border: 2px solid var(--secondary-Color);
+				&:hover {
+					background-color: var(--secondary-Color);
+				}
+			}
+		}
+		a {
+			font-family: poppinsLight;
+			font-size: 1.7vw;
+		}
+	}
+
+	.hero {
+		height: 100%;
+		display: grid;
+		padding-block: 10%;
+		h1 {
+			margin: 0 auto;
+			width: 58%;
+			color: var(--highLight-Color);
+			font-family: poppinsBold;
+			font-size: 3vw;
+			span {
+				color: rgba(240, 248, 255, 0);
+				-webkit-text-stroke: 2px var(--highLight-Color);
+				letter-spacing: -2px;
+				font-family: poppinsBlack;
+			}
+		}
+	}
+}

@@ -1,0 +1,31 @@
+.movieCard {
+	width: 100%;
+	aspect-ratio: 3/5;
+	overflow: hidden;
+	display: inline;
+	gap: 1.5%;
+	div {
+		height: 85%;
+		background: url('https://static.vecteezy.com/system/resources/previews/011/860/693/original/its-movie-time-vector.jpg')
+			center / cover no-repeat;
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: fill;
+		}
+	}
+	h5 {
+		color: white;
+		font-family: poppinsLight;
+		font-size: 1.3vw;
+		line-height: 100%;
+		margin-top: 3%;
+	}
+	h6 {
+		margin-top: 2%;
+		font-family: poppinsExtraLight;
+		font-size: 1.3vw;
+		color: var(--secondary-Color);
+		line-height: 100%;
+	}
+}

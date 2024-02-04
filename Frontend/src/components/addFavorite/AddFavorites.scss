@@ -1,0 +1,38 @@
+.addFavoriteBtn {
+	margin-top: 4%;
+	margin-bottom: 1%;
+	background-color: rgba(0, 255, 255, 0);
+	width: 20%;
+	border: 2px solid var(--Star-Color);
+	border-radius: 2.3vw;
+	font-family: poppinsMedium;
+	cursor: pointer;
+	p {
+		font-size: 1.5vw;
+
+		padding-right: 3%;
+		padding-top: 0.6%;
+		color: var(--Star-Color);
+	}
+
+	span {
+		font-family: poppinsSemiBold;
+		font-size: 1.5vw;
+		background-color: var(--Star-Color);
+		border-radius: 50%;
+		width: 2.34vw;
+		aspect-ratio: 1/1;
+		float: left;
+		text-align: center;
+		color: white;
+	}
+	&:active {
+		background-color: var(--Star-Color);
+		p {
+			color: white;
+		}
+		span {
+			background: var(--Primary-Color);
+		}
+	}
+}

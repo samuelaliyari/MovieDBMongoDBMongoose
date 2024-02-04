@@ -1,0 +1,42 @@
+.editForm {
+	font-family: poppinsBold;
+	padding: 5%;
+	margin: 0 auto;
+	width: 50vw;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	input,
+	textarea {
+		font-family: poppinsLight;
+		background-color: rgba(0, 255, 255, 0);
+		font-size: 2vw;
+		resize: none;
+		border: 2px solid var(--secondary-Color);
+		border-radius: 1rem;
+		padding: 1% 2%;
+		color: var(--secondary-Color);
+		&::-webkit-outer-spin-button,
+		&::-webkit-inner-spin-button {
+			-webkit-appearance: none;
+			margin: 0;
+		}
+		&:focus {
+			outline: none;
+		}
+	}
+	button {
+		font-size: 1.5vw;
+		border-radius: 1.5vw;
+		font-family: poppinsBold;
+		padding-block: 0.5vw;
+		color: white;
+		border: none;
+		background-color: var(--secondary-Color);
+		transition: background-color 300ms ease-in-out;
+		border: 2px solid var(--secondary-Color);
+		&:hover {
+			background-color: var(--Primary-Color);
+		}
+	}
+}
