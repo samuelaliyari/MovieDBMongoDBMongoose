@@ -43,6 +43,7 @@ const NavBar = ({ setMovies, collection }) => {
 					<input
 						type='text'
 						onChange={(e) => setSearchInput(e.target.value)}
+						placeholder='e.g. The Godfather'
 					/>
 					<button onClick={() => getSearchResult()}>Submit</button>
 				</form>
